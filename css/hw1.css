@@ -1,0 +1,333 @@
+
+
+header {
+    background-color: #36212154;
+    background-blend-mode: darken;
+    background-image:url("https://images.pexels.com/photos/8944631/pexels-photo-8944631.jpeg?cs=srgb&dl=pexels-anastasia-shuraeva-8944631.jpg&fm=jpg");
+    background-position: bottom;
+    background-position-y:67%;
+    background-size: cover;
+    height: fit-content;
+    padding-top: 50px;
+    padding-bottom: 0;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 3px black;
+    padding-top: 50px;
+    padding-bottom: 0px;
+   
+}
+
+h1:hover {
+    transform:rotateY(360deg);
+    transition-duration: 2.5s;
+}
+a {
+    color: #000;
+    font-size: 24px;
+}
+
+h2 {
+    color: #c7ad17;
+    text-shadow: 1px 1px 3px black;
+    font-size: 38px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #A18FAF;
+    background-position-y: -10px ;
+    background-position-x: 800px;
+    border-radius: 5px;
+    margin-bottom:50px ;
+    
+}
+
+section {
+ 
+    background: -moz-linear-gradient(top,90deg, #8c99a67e 0%,#afc1db7a 52%, #b696aa88  100%);
+	background: -webkit-linear-gradient(90deg,#8c99a67e 0%,#afc1db7a 52%, #b696aa88  100%);
+	background: -o-linear-gradient(90deg,#8c99a67e 0%,#afc1db7a 52%, #b696aa88  100%);
+	background: linear-gradient(90deg,#8c99a67e 0%,#afc1db7a 52%, #b696aa88  100%); 
+	background-image: url("../images/flywheel.jpg");
+    font-size: 24px;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: justify;
+    height: 100vh;
+    
+}
+
+body {
+    padding:5px;
+    margin: 0 auto;
+    background-color: rgb(141,154,166);
+}
+
+nav{
+    height: 90px;
+    padding-top: 50px;
+}
+
+nav a{
+    background-color: #00000088;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 95px;
+    margin-right: 90px;
+    text-decoration: none;
+    border-radius: 20px;
+    color: #f0f8ff;
+    transition-property:background;
+    transition-duration: .3s;
+
+}
+nav a:hover{
+    background-color: rgb(221, 212, 198);
+  
+}
+.active{
+    background-color: #A18FAF;
+    width: 50px;
+    height: 50px;
+}
+
+.left{
+    background-color: rgb(141,154,166);
+    float: left;  
+    margin-left: 0%; 
+    width: 30%;
+    height: fit-content;
+    box-shadow: 1px 20px 30px rgba(0, 0, 0, 0.521);
+   
+    
+}
+
+.right{
+    float: right;
+    width: 800px;
+    height: 700px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background: linear-gradient(90deg, rgba(140, 153, 166, 0.493) 0%, rgba(175, 193, 219, 0.479) 52%, rgba(182, 150, 170, 0.534) 100%);
+}
+
+aside img{
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    filter: brightness(60%);
+    filter: contrast(60%);
+}
+
+aside img:hover{
+  
+        height: 105%;
+        width: 105%;
+        margin-top: -50px;
+        filter: brightness(100%);
+        filter: contrast(100%);
+    }
+
+
+p{
+    line-height: 27px;
+}
+
+@media screen and (max-width:500px){ 
+    
+    header {
+        background-color: #36212154;
+        background-blend-mode: darken;
+        background-image: url("https://images.pexels.com/photos/8944631/pexels-photo-8944631.jpeg?cs=srgb&dl=pexels-anastasia-shuraeva-8944631.jpg&fm=jpg");
+        background-position: top;
+        background-position-y: 55%;
+        background-size: cover;
+        height: 30px;
+        padding-top: 10px;
+        padding-bottom: 150px;
+    }
+    
+    
+    h1 {
+        color: #fff;
+        text-align: center;
+        font-size: 30px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        text-shadow: 1px 1px 3px black;
+        padding-top: 30px;
+        padding-bottom: 0px;
+           
+    }
+    
+    a {
+        color: #000;
+        font-size: 14px;
+    }
+    
+    h2 {
+        color: #c7ad17;
+        text-shadow: 1px 1px 3px black;
+        font-size: 18px;
+        text-transform: uppercase;
+        text-align: center;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        background-image: url(../images/pexels-photo-8944631.jpeg);
+        margin-bottom:10px ;
+        
+    }
+    
+    section {
+     
+        background: rgb(140,153,166);
+        background: linear-gradient(90deg, rgba(140, 153, 166, 0.493) 0%, rgba(175, 193, 219, 0.479) 52%, rgba(182, 150, 170, 0.534) 100%);
+        font-size: 10px;
+        text-align: justify;
+        padding-bottom: 5px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    nav{
+        height: fit-content;
+        margin-top: 0%;
+        margin-bottom: 90%;
+    }
+      
+    nav a {
+        background-color: #00000088;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        padding-right: 3px;
+        padding-left: 3px;
+        text-decoration: none;
+        border-radius: 20px;
+        color: #f0f8ff;
+        margin-left: 7%;
+        margin-right: 5%;        
+    }
+    
+    .active{
+        background-color: #c5686888;
+        width: 10px;
+        height: 10px;
+    }
+    
+    .left{
+        background-color: rgb(141,154,166);;
+        float: left;  
+        margin-left: 0%; 
+        width: 30%;
+        height: fit-content;
+       
+        
+    }
+    
+    .right{
+        float: right;
+        width: 50%;
+        padding-left: 2%;
+        padding-right: 8%;
+        padding-bottom: 10px;
+        height: 300px;
+    
+    }
+    
+    aside img{
+        width: 70%;
+        height: 70%;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        margin-left: 20px;
+    }
+
+    p{
+        line-height: 13px;
+    }
+
+    table{
+        display: none;
+    }
+
+    .tablaImagen img{
+        display: inline-block !important;
+        width: 100%;
+        height: 100%;
+    }
+    
+
+}
+
+th{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    line-height: 40px;
+    background-color: rgb(26, 25, 27);
+    text-align: center;
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: linear-gradient(top #CFB9A1, 5px, bottom white 5px);
+    border: #000000 2px solid;
+    border-bottom:#000000 5px solid ;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+
+}
+th:first-child{
+    text-align: left;
+}
+
+td{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+}
+
+tr{
+    width:500px;
+    opacity: 0.8;
+}
+
+tr:hover{
+    opacity: 1;
+}
+
+td:first-child{
+text-align: left;
+}
+
+tr:nth-child(even){
+    background-color: #bdbabe;
+}
+
+tr:nth-child(odd){
+    background-color: #a388ac;
+}
+table{
+   
+    padding: 10px;
+    margin-left: 4%;
+
+}
+
+.tablaImagen img { 
+   display: none;
+}
+
